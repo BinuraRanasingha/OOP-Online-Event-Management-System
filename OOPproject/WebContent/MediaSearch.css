@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+body
+{
+	background-color:blue;
+}
+
+.searchForm
+{
+	display:block;
+	margin-left:50px;
+	margin-right:50px;
+	background-color:grey;
+	width:600px;
+}
+
+.mc,.mediaCode
+{
+	margin-top:20px;
+	margin-left:20px;
+	width:400px;
+}
+
+.media,.mediaCodelabel,.mediaNamelabel,.emailLabel,.locationLabel,.numberLabel,.cod,.id,.medname,.em,.place,.phonenumber
+{
+	margin-left:20px;
+}
+.st,.addMedia
+{
+	margin-bottom:20px;
+	margin-left:20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-weight:bold;
+	background-color:red;
+	cursor:pointer;
+}
+
+.mn
+{
+	margin-left:20px;
+	width:400px;
+}
+
+.mediaName
+{
+	margin-left:13px;
+	width:400px;
+}
+
+.emailc
+{
+	margin-left:58px;
+	width:400px;
+}
+
+.location
+{
+	margin-left:40px;
+	width:400px;
+}
+
+.pnumber
+{
+	margin-left:5px;
+	width:400px;
+}
+
+.mediaid
+{
+	margin-top:20px;
+	width:400px;
+	margin-left:30px;
+}
+
+.mcod
+{
+	margin-left:11px;
+	width:400px;
+}
+
+.mnam
+{
+	margin-left:10px;
+	width:400px;
+}
+
+.mai
+{
+	margin-left:53px;
+	width:400px;
+}
+
+.loc
+{
+	margin-left:38px;
+	width:400px;
+}
+
+.numb
+{
+	width:400px;
+}

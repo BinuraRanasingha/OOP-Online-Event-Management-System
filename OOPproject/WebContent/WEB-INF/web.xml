@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+ 	<servlet>
+ 		<servlet-name>searchmedia</servlet-name>
+		<servlet-class>com.media.MediaSearchServelt</servlet-class>
+ 	</servlet>
+ 	<servlet-mapping>
+ 		<servlet-name>searchmedia</servlet-name>
+		<url-pattern>/search</url-pattern>
+ 	</servlet-mapping>
+ 	
+ 	<servlet>
+ 		<servlet-name>mediainsert</servlet-name>
+ 		<servlet-class>com.media.AddMediaCompanyServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet-mapping>
+ 		<servlet-name>mediainsert</servlet-name>
+ 		<url-pattern>/mediainsert</url-pattern>
+ 	</servlet-mapping>
+ 
+ 	<servlet>
+ 		<servlet-name>updatemedia</servlet-name>
+ 		<servlet-class>com.media.UpdateMediaServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet-mapping>
+ 		<servlet-name>updatemedia</servlet-name>
+ 		<url-pattern>/updatemedia</url-pattern>
+ 	</servlet-mapping>
+ 	
+ 	<servlet>
+ 		<servlet-name>mediadelete</servlet-name>
+ 		<servlet-class>com.media.DeleteMediaServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet-mapping>
+ 		<servlet-name>mediadelete</servlet-name>
+ 		<url-pattern>/mediadelete</url-pattern>
+ 	</servlet-mapping>
+ </web-app>
+ 
